@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class HelloController {
     @GetMapping("/")
-    fun helloWorld() = "Hello World"
+    fun helloWorld() = "Hello Blue"
 
     @GetMapping("/greeting")
     fun greeting(@RequestParam name: String): HelloReply {
